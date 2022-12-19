@@ -1,12 +1,13 @@
 import React from 'react'
+import './App.css'
 import Navbar from './Components/Navbar'
-import Hompage from './Components/homePage'
+import Slider from './Components/Slider'
 
 const App = () => {
   return (
     <div>
       <Navbar/>
-      <Hompage/>
+      <Slider/>
     </div>
   )
 }
