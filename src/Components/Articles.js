@@ -16,7 +16,7 @@ export default class CenterMode extends Component {
       infinite: true,
       centerPadding: "100px",
       slidesToShow: 3,
-      //   autoplay: true,
+        autoplay: true,
       autoplaySpeed: 2000,
       pauseOnHover: true,
       speed: 500,
