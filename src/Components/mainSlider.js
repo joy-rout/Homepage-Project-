@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, {useState} from 'react'
-import './Slider.css'
+import './mainSlider.css'
 import BtnSlider from './btnSlider'
 import dataSlider from './dataSlider'
 

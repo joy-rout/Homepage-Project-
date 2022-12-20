@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import "./Slider.css";
+import "./mainSlider.css";
 import leftArrow from "./Images/left-arrow.png";
 import rightArrow from "./Images/right-arrow.png";
 
