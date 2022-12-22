@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import MainSlider from './Components/mainSlider'
 import TipSlider from './Components/tipsSlider'
 import Articles from './Components/Articles'
+import Books from './Components/Books'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <MainSlider/>
       <TipSlider/>
       <Articles/>
+      <Books/>
     </div>
   )
 }
