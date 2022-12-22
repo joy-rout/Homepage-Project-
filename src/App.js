@@ -5,6 +5,7 @@ import MainSlider from './Components/mainSlider'
 import TipSlider from './Components/tipsSlider'
 import Articles from './Components/Articles'
 import Books from './Components/Books'
+import Newsletter from './Components/Newsletter'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <TipSlider/>
       <Articles/>
       <Books/>
+      <Newsletter/>
     </div>
   )
 }
