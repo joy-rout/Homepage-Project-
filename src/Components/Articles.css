@@ -21,11 +21,13 @@
 
 .ArticleImage{
     height: 250px;
-    width: 300px;
+    width: 250px;
     /* margin-left: 35px; */
-    position:relative;
-    max-width:100%;
-    max-height:100%;
+    
+    display: flex;
+      justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
     
 }
 .ArticleSlider h5 {
@@ -36,15 +38,19 @@
 @media screen and (min-width: 900px){
     .ArticleImage {
         margin-left: 35px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .Article h3{
         text-align: left;
         margin: auto 50px ;
+        padding-top: 20px;
     }
 
     .alignleft {
         float: left;
-        margin-left: 30px;
+        margin-left: 50px;
         margin-top: 5px;
     }
     .alignright {

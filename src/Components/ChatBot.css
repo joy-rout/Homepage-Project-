@@ -1,0 +1,32 @@
+.chatbot{
+    position: fixed;
+  bottom: 0;
+  padding-right: 40px;
+  right: 0;
+  padding-bottom: 40px;
+  z-index: 1;
+}
+
+.ChatbotImage{
+    height: 70px;
+    width: 70px;
+   background-color: transparent;
+   border: none;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ChatbotClose{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cursive;
+    box-shadow: 0 4px 8px 0 rgb(56, 110, 129), 0 6px 20px 0 rgb(56, 110, 129);
+    color: #D7BFFE;
+    color: #8931CC;
+    height: 30px;
+    width: 60px;
+    border-radius: 12px;
+    font-size: 15px;
+}

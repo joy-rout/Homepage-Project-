@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./tipsSlider.css";
 import Slider from "react-slick";
-import Tip1 from "./Images/tips-1.svg";
-import Tip2 from "./Images/tips-2.svg";
-import Tip3 from "./Images/tips-3.svg";
-import Tip4 from "./Images/tips-4.svg";
-import Tip5 from "./Images/tips-5.svg";
-import Tip6 from "./Images/tips-6.svg";
+import Tip1 from "./Images/tips-1.jpg";
+import Tip2 from "./Images/tips-2.jpg";
+import Tip3 from "./Images/tips-3.png";
+import Tip4 from "./Images/tips-4.jpg";
+import Tip5 from "./Images/tips-5.jpg";
+import Tip6 from "./Images/tips-6.jpg";
 
 export default class CenterMode extends Component {
   render() {
@@ -54,37 +54,37 @@ export default class CenterMode extends Component {
           <div className="tip">
             <div className="tip1">
               <img className="tipImage" alt="tips" src={Tip1} />
-              <h3>Learn More..</h3>
+              <h3>Eat a healthy diet</h3>
             </div>
           </div>
           <div className="tip">
             <div className="tip2">
               <img className="tipImage" alt="tips" src={Tip2} />
-              <h3>Learn More..</h3>
+              <h3>Spend time in nature.</h3>
             </div>
           </div>
           <div className="tip">
             <div className="tip3">
               <img className="tipImage" alt="tips" src={Tip3} />
-              <h3>Learn More..</h3>
+              <h3>Connect with others.</h3>
             </div>
           </div>
           <div className="tip">
             <div className="tip4">
               <img className="tipImage" alt="tips" src={Tip4} />
-              <h3>Learn More..</h3>
+              <h3>Try to get enough sleep.</h3>
             </div>
           </div>
           <div className="tip">
             <div className="tip5">
               <img className="tipImage" alt="tips" src={Tip5} />
-              <h3>Learn More..</h3>
+              <h3>Be physically active. </h3>
             </div>
           </div>
           <div className="tip">
             <div className="tip6">
               <img className="tipImage" alt="tips" src={Tip6} />
-              <h3>Learn More..</h3>
+              <h3>Stay positive.</h3>
             </div>
           </div>
         </Slider>

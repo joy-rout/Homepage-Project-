@@ -56,8 +56,14 @@
 }
 
 .tipImage{
-    height: 250px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20%;
     /* margin-left: 35px; */
     position:relative;
     max-width:100%;

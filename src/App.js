@@ -6,6 +6,7 @@ import TipSlider from './Components/tipsSlider'
 import Articles from './Components/Articles'
 import Books from './Components/Books'
 import Newsletter from './Components/Newsletter'
+import ChatBot from './Components/ChatBot'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Articles/>
       <Books/>
       <Newsletter/>
+      <ChatBot/>
     </div>
   )
 }
