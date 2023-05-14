@@ -10,11 +10,26 @@ const ChatBot = () => {
   const handleClick = () => {
     setShowIframe(!showIframe);
   };
+    const [isHovering, setIsHovering] = useState(false);
+  
+    const handleMouseEnter = () => {
+      setIsHovering(true);
+    };
+  
+    const handleMouseLeave = () => {
+      setIsHovering(false);
+    };
 
   return (
     <div className="chatbot" >
       <button className="ChatbotImage" onClick={handleClick}>
-      <img  className="ChatbotImage" alt="ChatbotImage" src={ChatImg} />
+      <img  className="ChatbotImage chatbot-image" alt="ChatbotImage" onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave} src={ChatImg} />
+      {isHovering && (
+        <div className="chat-message">
+          get assistance from "wellby" our chatbot
+        </div>
+      )}
       </button>
       {showIframe && (
         <div>

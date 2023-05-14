@@ -7,6 +7,9 @@ import Articles from './Components/Articles'
 import Books from './Components/Books'
 import Newsletter from './Components/Newsletter'
 import ChatBot from './Components/ChatBot'
+import LocateTherpists from './Components/LocateAtherapist'
+import MoodTracker from './Components/MoodTracker'
+import Slide from './Components/slideDown'
 
 const App = () => {
   return (
@@ -14,10 +17,14 @@ const App = () => {
       <Navbar/>
       <MainSlider/>
       <TipSlider/>
+      <MoodTracker/>
       <Articles/>
       <Books/>
       <Newsletter/>
       <ChatBot/>
+      {/* <LocateTherpists/> */}
+      
+
     </div>
   )
 }
